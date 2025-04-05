@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Page</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- 🎵 Музыка -->
+    <audio id="bg-music" loop>
+      <source src="music.mp3" type="audio/mp3" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <div class="container">
+      <div class="header">
+        <img src="banner.jpg" alt="Cover" />
+        <div class="text-overlay">
+          <p>В ᴋᴀждᴏʍ ᴄᴇᴩдцᴇ ᴄᴋᴩыᴛᴀ ᴄʙᴇᴛᴧᴀя иᴄᴋᴩᴀ,</p>
+          <p>нᴏ нᴇ ᴋᴀждый ᴩᴇɯиᴛᴄя ᴇᴇ ᴩᴀɜжᴇчь.</p>
+        </div>
+      </div>
+
+      <div class="profile">
+        <img src="avatar.jpg" alt="Profile" />
+        <h1>Arᴛᴇl</h1>
+        <p>16 y.o.</p>
+        <button onclick="document.getElementById('bg-music').play()">
+          ▶ Воспроизвести музыку
+        </button>
+      </div>
+
+      <div class="links">
+        <a class="link" href="https://t.me/WorshipOfArtel" target="_blank"
+          >MUSIC</a
+        >
+        <a class="link" href="https://t.me/GratesOfHell" target="_blank"
+          >TG CHANNEL</a
+        >
+        <a class="link" href="https://t.me/obeznas" target="_blank">FRIEND</a>
+      </div>
+    </div>
+  </body>
+</html>
